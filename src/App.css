@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply min-h-screen flex flex-col items-center justify-center;
+}
+.container{
+  @apply p-9 flex flex-col items-center justify-center text-center content-center w-full max-w-md mx-auto;
+  box-shadow: 0 0 12px white;
+}
+h2{
+  @apply m-3 font-bold text-2xl;
+}
+.btn {
+  @apply bg-blue-500 text-white m-2 py-2 px-4 rounded;
+}
+
+.btn-reload {
+  @apply bg-gray-500 text-white py-2 px-4 rounded;
+}
+.values{
+  @apply p-1;
+}
+label{
+  @apply mr-8;
+}
+input{
+  @apply p-2 m-2 bg-slate-700 gap-x-3;
+}
